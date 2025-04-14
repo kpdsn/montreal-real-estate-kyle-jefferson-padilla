@@ -141,13 +141,15 @@
     https://spencermortensen.com/articles/typographic-scale/  */
 
 
-  h1 { font-size: 2.5em; }
-  h2 { font-size: 2.1459em; }
-  h3 { font-size: 1.842em; }
-  h4 { font-size: 1.5811em; }
-  h5 { font-size: 1.3572em; }
-  h6 { font-size: 1.165em; }
-  p { font-size: 1em; }
+  h1 {margin: 1rem 0 0,7rem 0.3rem;
+  line-height: 1.2}
+  h2 {margin: 2rem 0 1rem 0; }
+  h3 {margin: 2rem 0 1rem 0; }
+  h2 + h3 {margin: 0rem 0 0.5rem 0;}
+  h4 { margin: 2rem 0 1rem 0;}
+  h5 { margin: 2rem 0 1rem 0; }
+  h6 { margin: 2rem 0 1rem 0; }
+  p { margin: 0 0 1rem 0; }
   small { font-size: .8584em; }
   
   legend {font-size: 1.842em; }
@@ -232,6 +234,16 @@ header .branding {
     font-size: small;
  }
   
+
+
+ ol {
+	list-style-type: decimal;
+	margin-left: -1rem;
+}
+
+
+
+
   figure {}
   
   figcaption {}
