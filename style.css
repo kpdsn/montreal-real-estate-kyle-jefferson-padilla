@@ -238,7 +238,7 @@ header .branding {
 
  ol {
 	list-style-type: decimal;
-	margin-left: -1rem;
+	margin-left: 2rem;
 }
 
 
@@ -248,7 +248,11 @@ header .branding {
   
   figcaption {}
   
-  h2+p {}
+  h2+p {ol, ul {
+    list-style: none;
+    list-style-type: disc;
+    margin-left: 2rem;
+  }}
   
   H2+ul, h2+ol {}
   
